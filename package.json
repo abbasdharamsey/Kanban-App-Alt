@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/abbasdharamsey/Kanban-App-Alt/issues"
   },
-  "homepage": "https://github.com/abbasdharamsey/Kanban-App-Alt#readme"
+  "homepage": "https://github.com/abbasdharamsey/Kanban-App-Alt#readme",
+  "devDependencies": {
+    "webpack": "^1.12.14"
+  }
 }
