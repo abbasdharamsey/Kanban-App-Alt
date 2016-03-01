@@ -31,6 +31,7 @@ export default class Note extends React.Component {
       ref={
         (e) => e ? e.selectionStart = this.props.task.length : null
       }
+      size={this.props.task.length}
       autoFocus={true}
       defaultValue={this.props.task}
       onBlur={this.finishEdit}
